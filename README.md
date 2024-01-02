@@ -21,7 +21,7 @@ This is a basic ToDo web application built using Flask, a web framework for Pyth
 
 2. **Clone the Repository:**
 
-   git clone https://github.com/your-username/flask-todo-app.git
+   git clone https://github.com/your-username/todo-application-.git
    
    cd flask-todo-app
 
