@@ -1,0 +1,64 @@
+{% extends 'base.html' %}
+{% block body %}
+    <div class="container">
+        <h1>ToDo App</h1>
+        <h2>Overview</h2>
+        <p>This is a basic ToDo web application built using Flask, a web framework for Python. The app allows users to add, update, and delete ToDo items.</p>
+
+        <h2>Features</h2>
+        <ul>
+            <li><strong>Add ToDo Items:</strong> Users can add new ToDo items with a title and description.</li>
+            <li><strong>View ToDo List:</strong> See a list of all ToDo items with their titles, descriptions, and creation dates.</li>
+            <li><strong>Update ToDo Items:</strong> Modify existing ToDo items by updating their titles and descriptions.</li>
+            <li><strong>Delete ToDo Items:</strong> Remove ToDo items from the list.</li>
+        </ul>
+
+        <h2>Setup</h2>
+        <ol>
+            <li><strong>Install Dependencies:</strong> Ensure that you have Python and Flask installed. You can install Flask using the following command:
+                <br><code>pip install Flask</code></li>
+            <li><strong>Clone the Repository:</strong>
+                <br><code>git clone https://github.com/your-username/flask-todo-app.git</code>
+                <br><code>cd flask-todo-app</code></li>
+            <li><strong>Run the Application:</strong>
+                <br><code>python app.py</code>
+                <br>Visit <a href="http://127.0.0.1:5000/" target="_blank">http://127.0.0.1:5000/</a> in your web browser to access the ToDo application.</li>
+        </ol>
+
+        <h2>Usage</h2>
+        <ul>
+            <li><strong>Home Page:</strong> Visit the home page to view and add ToDo items.</li>
+            <li><strong>About Us Page:</strong> Learn more about the application and its creators.</li>
+            <li><strong>Update and Delete:</strong> Click on the "Update" or "Delete" buttons next to each ToDo item to edit or remove it.</li>
+        </ul>
+
+        <h2>File Structure</h2>
+        <ul>
+            <li><strong>app.py:</strong> Main Flask application file.</li>
+            <li><strong>templates:</strong> HTML templates for rendering pages.
+                <ul>
+                    <li><code>index.html:</code> Home page with the ToDo list.</li>
+                    <li><code>about.html:</code> About Us page.</li>
+                    <li><code>update.html:</code> Page for updating ToDo items.</li>
+                </ul>
+            </li>
+            <li><strong>static:</strong> Static files (CSS, JS).
+                <ul>
+                    <li><code>css/style.css:</code> Custom styles for the application.</li>
+                </ul>
+            </li>
+        </ul>
+
+        <h2>Contributing</h2>
+        <p>Contributions are welcome! If you'd like to enhance or fix issues in the application, please fork the repository and submit a pull request.</p>
+
+        <h2>License</h2>
+        <p>This project is licensed under the MIT License - see the <a href="/LICENSE" target="_blank">LICENSE</a> file for details.</p>
+    </div>
+    </div>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+{% endblock body %}
