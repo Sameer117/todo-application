@@ -17,4 +17,44 @@ This is a basic ToDo web application built using Flask, a web framework for Pyth
 
 1. **Install Dependencies:**
    Ensure that you have Python and Flask installed. You can install Flask using the following command:
+      pip install flask
+
+2. **Clone the Repository:**
+
+git clone https://github.com/your-username/flask-todo-app.git
+cd flask-todo-app
+
+3. **Run the Application:**
+
+python app.py
+
+
+Visit `http://127.0.0.1:5000/` in your web browser to access the ToDo application.
+
+## Usage
+
+- **Home Page:** Visit the home page to view and add ToDo items.
+- **About Us Page:** Learn more about the application and its creators.
+- **Update and Delete:** Click on the "Update" or "Delete" buttons next to each ToDo item to edit or remove it.
+
+## File Structure
+
+- **app.py:** Main Flask application file.
+- **templates:** HTML templates for rendering pages.
+- `index.html`: Home page with the ToDo list.
+- `about.html`: About Us page.
+- `update.html`: Page for updating ToDo items.
+- **static:** Static files (CSS, JS).
+- `css/style.css`: Custom styles for the application.
+
+## Contributing
+
+Contributions are welcome! If you'd like to enhance or fix issues in the application, please fork the repository and submit a pull request.
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+
+
 
